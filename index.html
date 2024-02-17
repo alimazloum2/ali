@@ -3,64 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Manager Portfolio</title>
+    <title>Professional Portfolio - Project Manager in Public Works</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- Ensure you have these CSS files in your project directory -->
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/portfolio.css"> <!-- Changed from video.css to portfolio.css -->
+    <link rel="stylesheet" href="styles/portfolio.css">
     <link rel="stylesheet" href="styles/sidebar.css">
 </head>
 <body>
     <header class="header">
         <div class="left-section">
-            <img class="profile-picture" src="images/profile-pic.jpg" alt="Profile Picture"> <!-- Changed to show profile picture -->
-            <h1>Your Name</h1> <!-- Add your name -->
+            <!-- Replace with your own logo or use a text-based title -->
+            <h1>Project Manager Portfolio</h1>
         </div>
         <div class="middle-section">
-            <h2>Project Manager - Public Works</h2> <!-- Professional title -->
+            <!-- Optionally, you can include a brief tagline or a professional statement here -->
+            <span>Building Tomorrow's Infrastructure</span>
         </div>
         <div class="right-section">
-            <a href="mailto:your.email@example.com">Email Me</a> <!-- Email contact -->
-            <a href="files/resume.pdf" target="_blank">Resume</a> <!-- Link to your resume -->
+            <!-- Links or buttons for contact or downloading your resume -->
+            <a href="mailto:your.email@example.com" class="email-link">Contact Me</a>
+            <a href="resume.pdf" target="_blank" class="resume-link">Download Resume</a>
         </div>
     </header>
 
     <nav class="sidebar">
-        <!-- Adjusted the sidebar to link to sections of the portfolio -->
-        <a href="#projects" class="sidebar-link">Projects</a>
-        <a href="#about-me" class="sidebar-link">About Me</a>
-        <a href="#contact-info" class="sidebar-link">Contact Info</a>
+        <!-- Navigation for different sections of your portfolio -->
+        <a href="#projects-section" class="sidebar-link">Projects</a>
+        <a href="#about-me-section" class="sidebar-link">About Me</a>
+        <a href="#contact-section" class="sidebar-link">Contact</a>
     </nav>
 
     <main>
         <!-- Projects Section -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <!-- Project #1 -->
-            <div class="project">
-                <h3>Project Title</h3>
-                <p>Description of the project, your role, technologies used, and any other relevant details.</p>
+        <section id="projects-section">
+            <h2>My Projects</h2>
+            <!-- Detailed cards for each project -->
+            <!-- Example Project -->
+            <div class="project-card">
+                <img src="project-image.jpg" alt="Project Image" class="project-image">
+                <div class="project-details">
+                    <h3>Project Name</h3>
+                    <p>Project Description - Highlighting your role, objectives, and the impact of the project.</p>
+                </div>
             </div>
-            <!-- Add more projects as needed -->
+            <!-- Repeat for other projects -->
         </section>
 
         <!-- About Me Section -->
-        <section id="about-me">
+        <section id="about-me-section">
             <h2>About Me</h2>
-            <p>A brief introduction about yourself, your background, and your professional interests.</p>
+            <p>A brief bio here. Talk about your professional ethos, experience, and areas of expertise.</p>
         </section>
 
-        <!-- Contact Info Section -->
-        <section id="contact-info">
-            <h2>Contact Info</h2>
-            <p>Email: your.email@example.com</p>
-            <p>LinkedIn: <a href="your-linkedin-profile-url">Your LinkedIn Profile</a></p>
-            <!-- Add other contact methods if desired -->
+        <!-- Contact Section -->
+        <section id="contact-section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>LinkedIn: <a href="your-linkedin">Your LinkedIn Profile</a></p>
+            <!-- Add other contact information as needed -->
         </section>
     </main>
 </body>
 </html>
+
