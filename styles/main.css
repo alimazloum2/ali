@@ -1,6 +1,6 @@
-/* video.css - renamed to main.css */
+/* main.css */
 .main {
-    margin-left: 250px; /* same as sidebar width */
+    margin-left: 250px; /* Adjust this value if your sidebar width changes */
     padding: 20px;
 }
 
@@ -19,4 +19,16 @@
 
 .project-details {
     margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        margin-left: 0; /* Reset margin for small screens */
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
 }
