@@ -1,32 +1,23 @@
+/* sidebar.css */
 .sidebar {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  top: 55px;
-  background-color: white;
-  width: 72px;
-  z-index: 200;
-  padding-top: 5px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding: 20px;
 }
 
 .sidebar-link {
-  height: 74px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  cursor: pointer;
+    display: block;
+    color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
 }
 
 .sidebar-link:hover {
-  background-color: rgb(235, 235, 235);
-}
-
-.sidebar-link img {
-  height: 24px;
-  margin-bottom: 4px;
-}
-
-.sidebar-link div {
-  font-size: 10px;
+    background-color: #444;
 }
